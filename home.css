@@ -1,0 +1,380 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    width: 100%;
+}
+.banner{
+    position: relative;
+    width: 100%;   
+    height: 540px;
+    transform: scale(1.0);
+}
+.banner>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 100;
+    overflow: hidden;
+    
+}
+.nav{
+    position:absolute;
+    z-index: 200;
+    margin: auto;
+    display: flex;
+    /* background: black; */
+    width: 70%;
+    height: 100px;
+    justify-content: end;
+    justify-content: flex-end;
+    left: 350px;
+    
+    align-items: center;
+    top: -20px;
+}
+.nav>a{
+    color: white;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+   
+    margin: 25px;
+    font-weight: 150;
+    text-decoration: none;
+    
+}
+.zomatohd{
+    z-index: 150;
+    position: absolute;
+    top: 170px;
+    left: 8px;
+    justify-content: center;
+    display: flex;
+    /* display: inline; */
+    width: 100%;
+    left: -10px;
+}
+.sub{
+    position: absolute;
+    z-index: 1;
+    top: 240px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    left: 200px;
+}
+.search{
+   position: absolute;
+   z-index: 1;
+   background: white;
+   width: 40%;
+   top: 320px;
+   left: 565px;
+   height: 55px;
+   border-radius: 10px;
+   align-items: center;
+   display: flex;
+   padding: 10px;
+}
+#loc>i{
+    color: rgb(229, 77, 77);
+    font-size: 22px;
+    display: flex;
+    display: inline-flex;   
+}
+
+#loc>input{
+    border:  solid white;
+    font-size: 16px;
+    width: 185px;
+
+}
+#subsearch{
+    display: flex;
+    
+    justify-content: space-evenly;
+    
+}
+#subsearch>input{
+    border:  solid white;
+    width: 300px;
+    font-size: 16px;
+   
+}
+#subsearch{
+   font-size: 20px;
+   border:  solid white;
+   width: 300px;
+   font-size: 16px;
+   width: 400px;
+   max-width: fit-content;
+}
+.search>span{
+    font-size: 30px;
+    width: 20px;
+}.search>#subsearch>i{
+    font-size: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    color: rgb(160, 157, 157);
+}
+.imgone{
+    height: 100px;
+    width: 100px;
+    border-radius: 2;
+
+}
+.content{
+    display: flex;
+       justify-content:center;
+       padding: 20px; height: 700px;
+       left: 20px;
+    
+    
+}
+
+
+.fimg{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    height: 400px;
+    /* background: #000; */
+    width: 80%;
+    position: relative;
+}
+.fimg>.one{
+    display: flex;
+    position: relative;
+    padding: 0px;
+    padding-left: 400px;
+    height: 300px; 
+   /* background: #b47a7a; */
+   width: 1000 px;
+   justify-content: start; 
+   
+   left: 100px;
+}
+.fimg>.two{
+    display: flex;
+    position: relative;
+    padding: 0px;
+    height: 306px;
+    /* border: 2px solid white;
+    border-radius: 100px */
+    /* background: #f92323; */
+    width: 1000px;
+    justify-content: center;
+    left: -130px;
+}
+.contentb{
+    display: flex;
+    position: relative;
+    right: 200px;
+    background: white;
+    align-items: end;
+    width: 450px;
+    left: -451px;
+    height: 101px;
+   top: 200px;
+   display: block;
+   border-radius: 15px;
+   border: 2px solid gainsboro;
+}
+.contentc{
+    display: flex;
+    position: relative;
+    right: 200px;
+    background:white;
+    align-items: end;
+    width: 450px;
+    left: -451px;
+    height: 100px;
+   top: 205px;
+   display: block;
+   border-radius: 15px;
+   border: 2px solid gainsboro;
+
+
+}
+.imgB{
+    border: 2px solid white;
+    border-radius: 15px; 
+    width: 450px;
+    display: flex; 
+    left:190px;
+    /* padding: 0px; */
+
+}
+.contentc,.contentb h3,p{
+    text-align: center;
+
+}
+.imgB:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.contentc:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+
+
+}
+.contentb:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+
+
+}
+.one{
+    display: flex;
+    padding-right: 50px;
+}
+    .content a{
+        text-decoration: none;
+        color: black;
+    }
+    .imagecontainer{
+        position: absolute;
+        display: flex;
+        width: 78%;
+        /* background: #000; */
+        left: 10%;
+        border-radius: 15px;
+    }
+    .imagebox{
+        display: flex;
+        border: 2px solid white;
+        border-radius: 15px;
+          height: 400px;
+        width:270px;
+        position: relative;
+        grid-column-gap: 1px;
+        left: 140px;
+        transform: scaleX(.9);
+        
+    }
+    .fyWdtp{
+        height: 340px;
+        width: 320px;
+        border: 2px solid white;
+        border-radius: 15px;
+
+    }
+    .thirdpart{
+        position: relative;
+        bottom: 350px;
+        background: white;
+        left: 10px;
+    }
+   .headingC{
+    position: relative;
+    left: 335px;
+    top: 30px;
+   }
+   .table{
+    height: 300px;
+    position: relative;
+    width: 63%;
+    font-size: 20px;
+    font-style:normal;
+    left: -30px;
+
+    
+   }
+   .tc{
+    border: 2px solid rgb(132, 129, 129);
+    border-radius: 10px;
+   }
+   .fourthPart .subd{
+    position: relative;
+    left: 335px ;
+    font-size: 22px;
+    top: 20px;
+   }
+   .fifthpart{
+    width: 100%;
+    height:400px ;
+    background:rgb(251, 246, 236);
+
+   }
+   .fifthpart .Fimg{
+    width:45%;
+    background: rgb(253, 250, 243);
+    height: 400px;
+   }
+   .fifthpart img{
+    height: 280px;
+    width: 260px;
+    position: relative;
+    top: 120px;
+    left: 600px;
+
+   }
+   .Fright{
+    width: 55%;
+    height: 400px;
+    position: relative;
+    background: rgb(253, 250, 243);
+    left: 45%;
+    bottom: 428px;
+    width: 55%;
+   }
+   .Fright .subr{
+    position: relative;
+    top: 60px;
+    left: 50px;
+   }
+   .Fright .subr h6 {
+    padding:0.1px;
+
+   }
+   .contentr{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    font-size: 20px;
+   }
+   .table2{
+    width: 60%;
+    height: 100px;
+    position: relative;
+    top: 16%;
+   }
+   .table2 td{
+    text-align: start;
+   }
+   .table2 th{
+    text-align: start;
+   }
+   footer{
+    position: relative;
+    top: 100px;
+    background: #fbf8f8;
+    height: 500px;
+   }
+   .footerimg{
+    position: relative;
+    left: 20%;
+    top: 25px;
+    transform: scale(.8);
+   }
+   .logos{
+    position: relative;
+    left: 69.5%;
+    bottom: 160px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black ;
+   }
+   .ref{
+    transform: scale(.55);
+    display: block;
+    position: relative;
+    left: 65.5%;
+    bottom: 150px;
+   }
